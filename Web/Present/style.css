@@ -1,0 +1,112 @@
+
+body{
+	background-image: url('img/background-green.jpg');
+    background-repeat:no-repeat;
+    background-size: cover;
+    margin: 0;
+    
+} 
+html{
+ 
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    /* background-color: red; */
+    margin: 0px;
+    position: relative;
+  
+    background-color: rgba(0, 0, 0, 0.363);
+    padding: 10px 0px 20px 0px;
+    
+}
+h1 {
+    font-family: sans-serif;
+    font-weight: 500;
+}
+#rpg{
+    padding: 10 0 0 120;
+    margin: 0;
+    color: rgb(196, 173, 173);
+    
+}
+
+#cont{
+    float: right;
+    color: rgb(196, 173, 173);
+    position: relative;
+    bottom: 57px;
+    right:120px;
+}
+#cont a:hover {
+    color: orange;
+    border-bottom: 1px solid orange;
+}
+a {
+    text-decoration: none;
+    color: rgb(196, 173, 173);
+}
+
+#big-mid{
+    position: absolute;
+    top: 75px;
+    left: 417px;
+    font-size: 96px;
+    color: rgb(196, 173, 173);
+}
+#mid{
+    font-weight: 550;
+    font-size: 23px;
+    text-align: center;
+    position: relative;
+    top:200px;
+    left: 415px;
+    width: 600px;
+    margin: 0;
+}
+
+#search{
+    position: absolute;
+    top: 410px;
+    left:467px;
+    background-color: transparent;
+    border:none;
+    border-bottom: 1px solid black;
+    width: 500px;
+    user-select: none;
+    outline: none;
+}
+#search[type=search]{
+    color: rgb(182, 175, 175);
+    height: 30px;
+    font-size: 20px;
+}
+
+
+footer{   
+    position: relative;
+    top: 406px;
+    padding: 0px;
+    margin: 0px;
+    background-color: rgba(0, 0, 0, 0.363);
+}
+
+#copy {
+    position: absolute;
+    top:30px;
+    left: 28px;
+    color: rgba(196, 173, 173, 0.63);
+    width: 200px;
+}
+
+#logo_bot{
+   height: 120px;
+   position: relative;
+   width: 150px;
+   left: 1120px;
+   
+   
+}
+
+
